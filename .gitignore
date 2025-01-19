@@ -1,0 +1,56 @@
+# 根目录下的Python和Jupyter文件
+/*.py
+/*.ipynb
+
+# 大文件
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.h5
+*.hdf5
+*.pkl
+*.model
+*.npy
+*.npz
+*.onnx
+*.tflite
+*.pb
+*.tar
+*.gz
+*.zip
+*.7z
+*.rar
+*.weights
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统相关
+.DS_Store
+Thumbs.db

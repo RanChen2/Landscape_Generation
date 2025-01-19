@@ -1,0 +1,26 @@
+{
+    "model": {
+        "input_nc": 3,
+        "output_nc": 3,
+        "ngf": 64,
+        "n_blocks": 9
+    },
+    "paths": {
+        "input_dir": "samples",
+        "weights_dir": "weights",
+        "results_dir": "result",
+        "types": "residential"
+    },
+    "inference": {
+        "max_size": 512,
+        "device": "cuda",
+        "mode": "default",
+        "time": "20240417"
+    },
+    "input_images": [
+        {
+            "name": "test.jpg",
+            "mode": "default"
+        }
+    ]
+} 
